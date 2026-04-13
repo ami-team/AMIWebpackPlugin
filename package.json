@@ -9,7 +9,6 @@
   "dependencies": {
   },
   "devDependencies": {
-    "vue-loader": "^16.8.3"
   },
   "engines": {
     "node": ">=14.0.0"
