@@ -12,7 +12,7 @@ console.log(`Building for: ${BROWSER_LIST.join(', ')}`);
 /*--------------------------------------------------------------------------------------------------------------------*/
 
 // noinspection JSUnusedGlobalSymbols
-export default class AMIWebpackPlugin
+module.exports = class AMIWebpackPlugin
 {
 	/*----------------------------------------------------------------------------------------------------------------*/
 
