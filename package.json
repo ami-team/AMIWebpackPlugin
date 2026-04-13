@@ -1,0 +1,17 @@
+{
+  "name": "ami-webpack-plugin",
+  "description": "",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./src/plugin.js",
+  "author": "Hugo MANGIONE",
+  "license": "CeCILL-C",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "vue-loader": "^16.8.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
