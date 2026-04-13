@@ -6,6 +6,7 @@
   "author": "Hugo MANGIONE",
   "license": "CeCILL-C",
   "dependencies": {
+    "vue": "^3.5.32"
   },
   "devDependencies": {
     "vue-loader": "^17.4.2"
