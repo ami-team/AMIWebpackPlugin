@@ -1,6 +1,6 @@
 /*--------------------------------------------------------------------------------------------------------------------*/
 
-const { VueLoaderPlugin } = require('vue-loader');
+const {VueLoaderPlugin} = require('vue-loader');
 
 /*--------------------------------------------------------------------------------------------------------------------*/
 
@@ -52,12 +52,12 @@ module.exports = class AMIWebpackPlugin
 		/*------------------------------------------------------------------------------------------------------------*/
 
 		compiler.options.module.rules.push({
-			test: /\\.vue$/,
+			test: /\.vue$/,
 			loader: 'vue-loader'
 		});
 
 		compiler.options.module.rules.push({
-			'test': /\\.js$/,
+			'test': /\.js$/,
 			'use': {
 				'loader': 'babel-loader',
 				'options': {
@@ -79,18 +79,18 @@ module.exports = class AMIWebpackPlugin
 
 		compiler.options.module.rules.push({
 			'type': 'asset/source',
-			'test': /\\.(twig|json|yml|xml)$/,
+			'test': /\.(twig|json|yml|xml)$/,
 			'exclude': /node_modules/
 		});
 
 		compiler.options.module.rules.push({
 			'type': 'asset/resource',
-			'test': /\\.(gif|png|jpg|jpeg|svg|wasm)$/,
+			'test': /\.(gif|png|jpg|jpeg|svg|wasm)$/,
 			'exclude': /node_modules/
 		});
 
 		compiler.options.module.rules.push({
-			test: /\\.css$/,
+			test: /\.css$/,
 			use: [
 				'style-loader',
 				'css-loader',
